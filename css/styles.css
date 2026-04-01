@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f8fb;
+  color: #222;
+  line-height: 1.6;
+}
+
+
+header {
+  background-color: #1e3a5f;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+nav {
+  background-color: #2f5d8a;
+  padding: 16px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 16px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  width: 90%;
+  max-width: 1100px;
+  margin: 25px auto;
+}
+
+section {
+  background-color: white;
+  margin-bottom: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+#habilidades {
+  background-color: #e3f2fd;
+}
+h2 {
+  margin-bottom: 15px;
+  color: #1e3a5f;
+}
+
+#sobre-mi img {
+  margin-top: 15px;
+  border-radius: 10px;
+  max-width: 220px;
+  width: 100%;
+  height: auto;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 250px;
+  background-color: #eef4fa;
+  border: 1px solid #d7e2ee;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+ul {
+  padding-left: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #b7c7d8;
+}
+
+th {
+  background-color: #dfeaf5;
+  color: #1e3a5f;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 500px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b8c7d8;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+input[type="submit"],
+button {
+  background-color: #2f5d8a;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+input[type="submit"]:hover,
+button:hover {
+  background-color: #1e3a5f;
+}
+
+footer {
+  background-color: #1e3a5f;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  margin-top: 30px;
+}
+
+footer a {
+  color: #d7ebff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  nav a {
+    display: inline-block;
+    margin: 8px 6px;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  main {
+    width: 95%;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+}
