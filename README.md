@@ -1,11 +1,10 @@
-# Lynch_PFO1
 # PFO 1 - Portafolio Personal
 
 ## Descripción del Proyecto
 
-Este proyecto consiste en el desarrollo de un Portafolio Personal utilizando HTML5 y CSS3. El objetivo es aplicar los conocimientos adquiridos sobre estructura semántica, enlaces, imágenes, formularios, listas, tablas y estilos CSS para crear una página web organizada, accesible y responsive.
+Este proyecto consiste en el desarrollo de un Portafolio Personal utilizando HTML5 y CSS3. El objetivo es aplicar los conceptos fundamentales de maquetación web, estructura semántica, formularios, imágenes, enlaces y estilos CSS para construir una página web organizada, accesible y responsive.
 
-La página presenta información personal, proyectos realizados, habilidades, un formulario de contacto y una sección de películas favoritas, utilizando buenas prácticas de desarrollo web y diseño moderno.
+La página incluye información personal, proyectos destacados, habilidades, un formulario de contacto y una sección de películas favoritas.
 
 ---
 
@@ -46,25 +45,25 @@ Lynch_PFO1/
 
 ## Funcionalidades Implementadas
 
-### Encabezado (Header)
+### Header
 
 * Título principal del sitio.
-* Identificación personal.
+* Presentación profesional.
 
-### Navegación (Nav)
+### Navegación
 
-* Menú de navegación interno.
-* Enlaces a las diferentes secciones de la página.
+* Menú de navegación con enlaces internos.
+* Acceso rápido a las diferentes secciones.
 
-### Presentación Personal
+### Sobre mí
 
-* Información personal y profesional.
+* Descripción personal y profesional.
 * Imagen de perfil con atributo `alt`.
 
-### Tarjetas de Proyectos
+### Proyectos
 
-* Organización mediante Flexbox.
-* Tarjetas con imagen y descripción.
+* Tarjetas organizadas mediante Flexbox.
+* Descripción de proyectos realizados.
 
 ### Habilidades
 
@@ -81,11 +80,11 @@ Lynch_PFO1/
 ### Películas Favoritas
 
 * Presentación de películas seleccionadas.
-* Imagen y descripción de cada una.
+* Imagen y descripción de cada película.
 
-### Pie de Página
+### Footer
 
-* Información adicional del sitio.
+* Información complementaria del sitio.
 
 ---
 
@@ -94,11 +93,11 @@ Lynch_PFO1/
 ### Declaración y Metaetiquetas
 
 * [x] DOCTYPE HTML5
-* [x] Atributo `lang="es"`
+* [x] lang="es"
 * [x] Meta charset UTF-8
 * [x] Meta viewport
 * [x] Título descriptivo
-* [x] Archivo CSS externo vinculado
+* [x] Vinculación de archivo CSS externo
 
 ### Estructura Semántica
 
@@ -109,10 +108,10 @@ Lynch_PFO1/
 
 ### Secciones Obligatorias
 
-* [x] Sobre mí
+* [x] Presentación Personal (Sobre mí)
 * [x] Imagen con atributo alt
 * [x] Tarjetas organizadas con Flexbox
-* [x] Habilidades
+* [x] Listado de habilidades
 * [x] Formulario de contacto
 * [x] Películas favoritas
 
@@ -122,19 +121,19 @@ Lynch_PFO1/
 * [x] Apellido
 * [x] Email
 * [x] Teléfono
-* [x] Botón submit
+* [x] Botón Submit
 
 ### Buenas Prácticas
 
-* [x] Uso de comentarios HTML
-* [x] Organización de archivos y carpetas
-* [x] Uso de CSS externo
+* [x] Comentarios en HTML
+* [x] CSS externo
+* [x] Organización de carpetas
 * [x] Diseño responsive básico
 
 ### Publicación
 
 * [x] Repositorio GitHub
-* [x] Sitio desplegado en Vercel
+* [x] Sitio publicado en Vercel
 
 ---
 
@@ -152,4 +151,4 @@ https://lynch-pfo-1.vercel.app/
 
 ## Objetivo Académico
 
-Este trabajo fue realizado como parte de la materia Front-End, aplicando conceptos fundamentales de HTML y CSS para el desarrollo de sitios web estáticos y la publicación de proyectos utilizando GitHub y Vercel.
+Trabajo práctico individual realizado para la materia Front-End, aplicando conceptos de HTML5 y CSS3, organización de contenido web, diseño responsivo y despliegue de proyectos utilizando GitHub y Vercel.
